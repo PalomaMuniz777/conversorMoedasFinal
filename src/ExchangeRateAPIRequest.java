@@ -6,7 +6,7 @@ import java.net.http.HttpResponse;
 public class ExchangeRateAPIRequest {
 
     public static void main(String[] args) {
-        String apiKey = "fe2bcf59cd8fa7c9105d3f57";
+        String apiKey = ";
         String baseCurrency = "USD"; // Código da moeda base
 
         String url = "https://v6.exchangerate-api.com/v6/" + apiKey + "/latest/" + baseCurrency;
